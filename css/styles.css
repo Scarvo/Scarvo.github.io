@@ -226,10 +226,36 @@ h2 {
 }
 
 .bioimage div {
-    margin-top: 20rem;
+    margin-top: 10rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.bioimage p {
+    position: absolute;
+    top: 150px;
+    text-transform: uppercase;
+    font-style: oblique;
+    display: none;
+    right: 100px;
+    color: red
+}
+
+.bioimage p:nth-child(2) {
+    position: absolute;
+    top: 325px;
+}
+
+.bioimage a {
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+}
+
+.bioimage a:hover p {
+    display: flex;
+    transform: rotate(20deg);
 }
 
 /*SKILLSET*/
@@ -325,7 +351,7 @@ font-size: 3rem;
 
 .home a.rainbow {
     font-size: 60pt;
-    color: pink;
+    color: gainsboro;
     background: linear-gradient(90deg, #f758af, #F9F266, #66F9A9, #666DF9);
     background-clip: text;
     -webkit-background-clip: text;
@@ -690,6 +716,10 @@ textarea:valid {
     object-fit: cover; 
     transition: .5s;
   }
+
+  .box a {
+       
+  }
   
   .box > span {
     font-size: 6.0vh;
@@ -709,6 +739,8 @@ textarea:valid {
     height: 100%;
     border: 5px solid pink;
   }
+
+  /*FOOTER*/
 
   footer {
     padding-top: 50px;

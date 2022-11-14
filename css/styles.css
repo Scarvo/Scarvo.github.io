@@ -372,6 +372,80 @@ font-size: 3rem;
 }
 
 
+.linkedin a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+.youtube a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;  
+}
+
+.github a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+.insta a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;  
+}
+
+.twitter a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.linkedin a:hover p {
+    color: #0072b1;
+    transition: 0.5s;
+}
+.youtube a:hover p {
+    color: #dc413e;
+    transition: 0.5s;
+}
+
+.github a:hover p {
+    color: #27285C;
+    transition: 0.5s;
+}
+.insta a:hover p {
+    color: #fbad50;
+    transition: 0.5s; 
+}
+
+.twitter a:hover p {
+    color: #00acee;
+    transition: 0.5s;
+}
+
+.twitter p {
+    transition: 0.5s;
+}
+
+.linkedin p {
+    transition: 0.5s;
+}
+
+.youtube p {
+    transition: 0.5s;
+}
+
+.github p {
+    transition: 0.5s;
+}
+
+.insta p {
+    transition: 0.5s;
+}
+
+
+
 
 
 .quicklinks {
@@ -464,7 +538,6 @@ fieldset {
 .project-form p {
     color: pink;
     font-size: 1.5rem;
-    margin-bottom: 2rem;
 }
 
 

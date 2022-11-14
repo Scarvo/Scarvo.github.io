@@ -42,19 +42,20 @@ header button {
     border-radius: 5rem;
     background-color: transparent;
     outline: none;
-    width: 70px;
-    height: 70px;
+    width: 150px;
+    height: 150px;
+    padding-top: 20px;
 }
 
 header button:hover {
     cursor: pointer;
 }
 
-header svg {
+/* header svg {
     padding-top: 10px;
     width: 100px;
     height: 100px;
-}
+} */
 
 /* .title a  {
     font-size: 45px;
@@ -74,13 +75,13 @@ header svg {
 
 /* NAVIGATION */
 nav {
+    margin-top: 25px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.7s ease-in-out;
     position: absolute;
     top: 100px;
-    padding-left: 10px;
-    left: 0;
+    left: 25px;
     background-color: transparent;
     width: 100%;
     z-index: 1;
@@ -147,9 +148,9 @@ svg {
 }
 
 /*LOGO*/
-section.logocontainer {
+/* section.logocontainer {
     margin-top: 175px;
-}
+} */
 
 .logocontainer div {
     background-image: url(../img/logogrey.png);
@@ -161,8 +162,8 @@ section.logocontainer {
 }
 
 .logocard {
-    width: 375x;
-    height: 375px;
+    margin-top: 10;
+    height: 10px;
     position: relative;
     display: inline-block;
 }

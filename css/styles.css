@@ -480,6 +480,7 @@ font-size: 3rem;
     margin-bottom: 1rem;
     text-transform: lowercase;
     text-align: start;
+    font-weight: normal;
 }
 
 .quicklinks p {

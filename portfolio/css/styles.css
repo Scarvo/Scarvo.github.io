@@ -1,0 +1,645 @@
+.container {
+    padding: 0 1.5rem;
+    position: relative;
+
+}
+
+.inner-container {
+    background-color: #fff;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.flex-container {
+    display: flex;
+}
+
+/* TYPOGRAPHY */
+@font-face {
+    font-family: 'fredoka';
+    src: url(../fonts/fredokaone-regular-webfont.woff2) format('woff2'),
+         url(../fonts/fredokaone-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* HEADER */
+
+header {
+    padding: 0.5rem 0;
+    box-shadow: 0 4px 2px -2px transparent;
+    margin-bottom: 2rem;
+    background-color: transparent;
+}
+
+header div:first-of-type {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header button {
+    border: none;
+    border-radius: 5rem;
+    background-color: transparent;
+    outline: none;
+    width: 70px;
+    height: 70px;
+}
+
+header button:hover {
+    cursor: pointer;
+}
+
+header svg {
+    padding-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+/* .title a  {
+    font-size: 45px;
+    color: pink;
+    background: linear-gradient(90deg, purple, blue, green, yellow, orange, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-decoration: none;
+}
+
+.title {
+    justify-content: end;
+    margin-right: 395px;
+    bottom: 34px;
+
+} */
+
+/* NAVIGATION */
+nav {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease-in-out;
+    position: absolute;
+    top: 100px;
+    padding-left: 10px;
+    left: 0;
+    background-color: transparent;
+    width: 100%;
+    z-index: 1;
+}
+
+ul.menu {
+    padding-top: 10px;
+}
+
+ul.menu li a {
+    color: pink;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 30px;
+    padding-left: 1rem;
+    display: block;
+    /* border-bottom: 1px solid black; */
+}
+
+ul.menu li:first-of-type{
+    /* border-top: 1px solid black; */
+}
+
+ul.menu li a:hover {
+    background-color: pink;
+    color: black;
+}
+
+.show-nav {
+    max-height: 100vh;
+}
+
+
+body {
+    font-family: 'fredoka', sans-serif;
+    background-color: black;
+    background-image: url(../img/skystars.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+
+.home a {
+ text-decoration: rainbow;
+}
+
+
+h1 {
+    color: pink;
+    background-color: black;
+    text-decoration: rainbow;
+    font-size: 30pt;
+}
+
+svg {
+    fill: pink;
+    transition: 0.5s;
+}
+
+/*LOGO*/
+section.logocontainer {
+    margin-top: 175px;
+}
+
+.logocontainer div {
+    background-image: url(../img/logogrey.png);
+}
+
+.logocontainer {
+ display: flex;
+ justify-content: center;
+}
+
+.logocard {
+    width: 375x;
+    height: 375px;
+    position: relative;
+    display: inline-block;
+}
+.logocard .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.logocard:hover .img-top {
+    display: inline;
+}
+
+
+
+
+
+
+/*BIO*/
+.bio {
+    color: pink;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.bio div {
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+h2 {
+    font-size: 60px;
+    border-bottom: 15px solid pink;
+    text-transform: lowercase;
+    font-weight: normal;
+}
+
+.bio p {
+    font-size: 45px;
+}
+
+.resume {
+    text-align: center;
+    justify-content: center;
+}
+
+.resume a {
+    text-decoration: none;
+    color: #66F9A9;
+    font-size: 50px;
+}
+
+.resume a:hover {
+    text-decoration: none;
+    color: #F9F266;
+}
+
+/*SKILLSET*/
+.skillset .flex-container {
+    justify-content: space-around;
+    justify-items: center;
+}
+
+ul.skills {
+    text-align: center;
+}
+
+ul.skills li {
+ font-size: 50px;
+ color: pink;
+}
+
+.skillset h4 {
+ font-size: 75px;
+ color: #04041a;
+ font-weight: normal;
+ text-align: center;
+ background-color: pink;
+}
+
+.skilltitle {
+    margin-bottom: 100px;
+}
+
+.skilllist {
+    margin-bottom: 100px
+}
+
+/*PROJECTS*/
+
+section.projects {
+    flex-direction: column;
+}
+
+.bigcard div {
+    width: 50%;
+}
+
+
+div.bigcard {
+    justify-content: space-evenly;
+}
+
+.smallcard {
+    flex-direction: column;
+}
+
+.left p {
+    color: #04041a;
+    font-size: 2rem;
+}
+
+
+.projects {
+    display: flex;
+}
+
+.projects div {
+    text-align: left;
+    padding: 1rem 1rem 1rem;
+}
+
+.projects h2 {
+color: #04041a;
+border: none;
+font-size: 3rem;
+}
+
+.bigcard div:nth-child(1) {
+    background-color: pink;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+
+
+.right p {
+    color: pink;
+    border: none;
+    font-size: 1.5rem;
+    }
+
+
+
+/*RAINBOW TEXT*/
+
+.home a.rainbow {
+    font-size: 60pt;
+    color: pink;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-decoration: none;
+  }
+  
+  a:hover.rainbow {
+    color: transparent;
+    transition: 1000ms ease;
+  }
+  
+  #rainbowtext {
+    display: flex;
+    align-items: center;
+  }
+
+  .home a {
+
+  }
+
+/* QUICK LINKS */
+
+
+.twitter a:hover svg {
+    fill: #00acee;
+    transition: 0.5s;
+}
+
+.github a:hover svg {
+    fill: #27285C;
+    transition: 0.5s;
+}
+
+.youtube a:hover svg {
+    fill: #FF0000;
+    transition: 0.5s;
+}
+
+.insta a:hover svg {
+    fill: #fbad50;
+    transition: 0.5s;
+}
+
+.linkedin a:hover svg {
+    fill: #0072b1;
+    transition: 0.5s;
+}
+
+
+.quicklinks svg {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+.quicklinks {
+    margin-top: 75px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.row2 {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    font-size: 30px;
+    margin-top: 1rem;
+}
+
+
+.quicklinks h3 {
+    color: pink;
+    font-size: 80px;
+    margin-bottom: 1rem;
+    text-transform: lowercase;
+    text-align: start;
+}
+
+.quicklinks p {
+    color: pink;
+}
+
+/* PROJECT FORM */
+
+section.project-form {
+}
+
+fieldset {
+    margin-top: 10px;
+}
+
+.formtitle {
+    background-color: pink;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    /* position: sticky;
+    bottom: 0px; */
+}
+
+.formtitle p {
+    color: black;
+}
+
+.project-form > form {
+    flex-direction: column;
+}
+
+.parallax-image {
+    background-image: url(../img/form-bg-sm.jpg);
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 222px;
+    text-align: left;
+    padding: 40px 20px;
+    margin-bottom: 2rem;
+
+    /* note:background-attachment gets disabled on mobile due to performance */
+}
+
+.project-form h2 {
+    color: pink;
+    font-size: 36px;
+}
+
+.project-form h3 {
+    color: black;
+    font-size: 80px;
+    margin-bottom: 1rem;
+}
+
+.project-form p {
+    color: pink;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 3.5rem;
+}
+
+label {
+    font-size: 1rem;
+    display: block;
+    color: pink;
+}
+
+.project-form input,
+textarea {
+    width: 100%;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-form span {
+    color: rgba(221, 6, 6, 0.7);
+    font-size: 1.25rem;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+input[type="submit"] {
+    background-color: #f3d900;
+    color: #344256;
+    display: flex;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+input[type="submit"]:hover {
+    color: #dc413e;
+    padding-left: 20px;
+}
+
+input:invalid,
+textarea:invalid {
+    border: 1px solid rgba(255, 0, 0, 0.7);
+}
+
+input:valid,
+textarea:valid {
+    border: 2px solid rgba(0, 220, 255, 0.5);
+}
+
+.project-form svg {
+    fill: #344256;
+}
+
+.project-form a {
+    width: 100px;
+}
+
+.form-row {
+    display: flex; 
+    justify-content: space-between; 
+  }
+
+  .form-row > div {
+      width: 48%;
+  }
+
+  label[id="budget"],
+  input[id="budget"]{
+      width: 48%;
+  }
+  
+  textarea {
+      height: 150px;
+  }
+
+  .send-btn {
+    background-color: pink;
+    color: #04041a;
+    display: flex;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    line-height: 20px;
+    font-size: 25px;
+}
+
+.send-btn:hover {
+    background-color: #66F9A9;
+    color: #04041a;
+    /* fill: #344256; */
+}
+
+.send-button {
+    display: flex;
+    justify-content: center;
+}
+
+/*SHOWCASE*/
+
+.showcase {
+    margin-top: 5rem;
+}
+
+.showcasecontainer {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 100vh;
+  }
+  
+  .box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    line-height: 0;
+  }
+  
+  .box > img {
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover; 
+    transition: .5s;
+  }
+  
+  .box > span {
+    font-size: 6.0vh;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 1.6;
+    background-color: pink;
+    color: #04041a;
+    text-transform: lowercase;
+  }
+
+  
+  .box:hover { flex: 1 1 50%; }
+  .box:hover > img {
+    width: 100%;
+    height: 100%;
+    border: 5px solid pink;
+  }
+
+  footer {
+    padding-top: 50px;
+    margin-top: 500px;
+    margin-bottom: 25px;
+  }
+
+  .footerlist {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: pink;
+  }
+
+  .footerlist p {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+   
+
+  
+
+
+

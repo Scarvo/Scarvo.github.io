@@ -383,10 +383,11 @@ font-size: 3rem;
 
 .row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
     flex-direction: row;
-    padding: 2rem;
+    padding: 2rem 6rem;
 }
 
 .row2 {

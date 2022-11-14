@@ -75,7 +75,7 @@ header button:hover {
 
 /* NAVIGATION */
 nav {
-    margin-top: 25px;
+    margin-top: 28px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.7s ease-in-out;
@@ -132,6 +132,7 @@ body::-webkit-scrollbar {
 
 .home a {
  text-decoration: rainbow;
+ text-align: right;
 }
 
 
@@ -222,6 +223,13 @@ h2 {
 .resume a:hover {
     text-decoration: none;
     color: #F9F266;
+}
+
+.bioimage div {
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /*SKILLSET*/
@@ -318,7 +326,7 @@ font-size: 3rem;
 .home a.rainbow {
     font-size: 60pt;
     color: pink;
-    background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+    background: linear-gradient(90deg, #F966B6, #F9F266, #66F9A9, #666DF9);
     background-clip: text;
     -webkit-background-clip: text;
     text-decoration: none;
@@ -326,7 +334,7 @@ font-size: 3rem;
   
   a:hover.rainbow {
     color: transparent;
-    transition: 1000ms ease;
+    transition: 0.5s ease;
   }
   
   #rainbowtext {

@@ -326,7 +326,7 @@ font-size: 3rem;
 .home a.rainbow {
     font-size: 60pt;
     color: pink;
-    background: linear-gradient(90deg, #F966B6, #F9F266, #66F9A9, #666DF9);
+    background: linear-gradient(90deg, #f758af, #F9F266, #66F9A9, #666DF9);
     background-clip: text;
     -webkit-background-clip: text;
     text-decoration: none;

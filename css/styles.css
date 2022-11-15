@@ -200,7 +200,7 @@ svg {
 
 h2 {
     font-size: 60px;
-    border-bottom: 15px solid pink;
+    border-bottom: 25px dotted pink;
     text-transform: lowercase;
     font-weight: normal;
 }
@@ -693,10 +693,21 @@ textarea:valid {
     margin-top: 5rem;
 }
 
+.showcasetitle {
+    margin-top: 75px;
+}
+
+.showcasetitle h2 {
+    border: none;
+    color: pink;
+    font-size: 80px;
+
+}
+
 .showcasecontainer {
     display: flex;
     width: 100%;
-    padding: 4% 2%;
+    padding: 0 0 2% 0;
     box-sizing: border-box;
     height: 100vh;
   }
@@ -716,10 +727,7 @@ textarea:valid {
     object-fit: cover; 
     transition: .5s;
   }
-
-  .box a {
-       
-  }
+  
   
   .box > span {
     font-size: 6.0vh;

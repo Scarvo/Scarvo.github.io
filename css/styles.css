@@ -286,7 +286,7 @@ ul.skills li {
 }
 
 .skilllist {
-    margin-bottom: 100px
+    margin-bottom: 250px
 }
 
 /*PROJECTS*/
@@ -488,6 +488,7 @@ font-size: 3rem;
     justify-content: center;
     margin-bottom: 25px;
 }
+
 
 
 .row {
@@ -751,21 +752,76 @@ textarea:valid {
   /*FOOTER*/
 
   footer {
-    padding-top: 50px;
-    margin-top: 500px;
+    margin-top: 250px;
     margin-bottom: 25px;
+    position: relative;
   }
 
   .footerlist {
     text-align: center;
     font-size: 25px;
-    font-style: italic;
     color: pink;
   }
+
+footer div.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer ul.row {
+    justify-content: space-between;
+    display: flex;
+}
+
+ul.footerrow {
+    flex-direction: row;
+    display: flex;
+    justify-content: left;
+
+}
+.footerlist {
+    display: block;
+    flex-direction: row;
+}
+
+footer li {
+    font-size: 45px;
+    padding: 0 1rem;
+}
+
+footer ul {
+    top: 30px;
+    position: relative;
+}
+
+footer a {
+    text-decoration: none;
+    color: pink;
+}
+
+footer a:hover {
+    background-color: pink;
+    color: #04041a;
+}
+
+footer div:nth-child(1) {
+    justify-content: center;
+    justify-content: left;
+}
+
+footer div:nth-child(2) {
+   background-color: pink;
+   top:  25px;
+   position: relative;
+   justify-content: right;
+}
 
   .footerlist p {
     padding-left: 25px;
     padding-right: 25px;
+    color: #04041a;
+    justify-self: center;
+    font-style: italic;
   }
    
 

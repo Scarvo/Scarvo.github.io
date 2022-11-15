@@ -663,23 +663,24 @@ textarea:valid {
   }
 
   .send-btn {
-    background-color: pink;
-    color: #04041a;
+    color: #27285C;
     display: flex;
-    width: 200px;
-    padding: 1rem;
-    border-radius: 10px;
+    width: 100px;
+    padding: 1rem 15rem;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    text-align: center;
-    line-height: 20px;
-    font-size: 25px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 40px;
+    background-color: #66F9A9;
+
 }
 
 .send-btn:hover {
-    background-color: #66F9A9;
-    color: #04041a;
+   color: #66F9A9;
+    background: none;
+    text-decoration: underline;
     /* fill: #344256; */
 }
 
